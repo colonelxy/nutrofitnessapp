@@ -3,6 +3,7 @@ import React from 'react';
 
 import { Box, Stack, Typography, Button } from '@mui/material';
 import HeroBannerImage from '../assets/images/banner.png';
+import { padding } from '@mui/system';
 
 const HeroBanner = () => {
   return (
@@ -19,10 +20,10 @@ const HeroBanner = () => {
         Sweat, Smile <br /> and Repeat
       </Typography>
       <Typography fontSize='22px'
-      lineHeight= '35px' mb='3px'>
+      lineHeight= '35px' mb={4}>
         Check out the most effective exercises
       </Typography>
-      <Button variant= 'contained' color= 'error' href='#Exercises'>
+      <Button variant= 'contained' color= 'error' href='#Exercises' sx={{backgroundColor: '#ff2625', padding: '10px'}}>
         Explore Exercises
       </Button>
       <Typography fontWeight={600} color = '#ff2625'
