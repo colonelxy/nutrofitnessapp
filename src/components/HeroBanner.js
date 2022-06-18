@@ -2,7 +2,7 @@ import React from 'react';
 
 
 import { Box, Stack, Typography, Button } from '@mui/material';
-import HeroBannerImage from '../assets/images/banner.png';
+import HeroBannerImage from '../assets/images/manGym.jpg';
 import { padding } from '@mui/system';
 
 const HeroBanner = () => {
@@ -17,7 +17,7 @@ const HeroBanner = () => {
       <Typography fontWeight= {700}
       sx={{fontSize: { lg: '44px', xs: '40px'}}}
       mb= '23px' mt='30px'>
-        Sweat, Smile <br /> and Repeat
+        Sweat, Smile, <br />  Repeat
       </Typography>
       <Typography fontSize='22px'
       lineHeight= '35px' mb={4}>
@@ -34,7 +34,7 @@ const HeroBanner = () => {
       fontSize ='200px'>
         Exercises
       </Typography>
-      <img src={HeroBannerImage}  alt='banner' className='hero-banner-img'/>
+      <img src={HeroBannerImage}  alt='banner' className='hero-banner-img' style={{width: '758px', height: '900px'}}/>
     </Box>
   )
 }

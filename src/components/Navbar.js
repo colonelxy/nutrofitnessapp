@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 import { Stack } from '@mui/material';
 
-import Logo from '../assets/images/Logo.png';
+import Logo from '../assets/images/Logo2.png';
 
 
 const Navbar = () => {
@@ -16,8 +16,8 @@ const Navbar = () => {
     }, justifyContent: 'none'}} px='20px'
     >
       <Link to='/'>
-        <img src={Logo} alt='logo' style={{
-          width: '48px', height: '48px', margin: '0, 20px' }}
+        <img src={Logo} alt='Nutrofitness logo' style={{
+          width: '150px', height: '150px', margin: '0, 0px' }}
           />
       </Link>
       <Stack  direction='row'
